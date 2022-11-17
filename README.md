@@ -78,3 +78,8 @@ opposed to using a framework).
 To learn more about how to build Agoric Dapps, please see the [Dapp Guide](https://agoric.com/documentation/dapps/).
 
 See the [Dapp Deployment Guide](https://github.com/Agoric/agoric-sdk/wiki/Dapp-Deployment-Guide) for how to deploy this Dapp on a public website, such as https://fungiblefaucet.testnet.agoric.com/
+
+
+# DEV DIARY
+Step One - remove UI
+Step Two - 
