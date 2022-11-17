@@ -6,19 +6,18 @@ See the [Dapp Deployment Guide](https://github.com/Agoric/agoric-sdk/wiki/Dapp-D
 
 
 # DEV DIARY
-Step One - Remove Old UI
-Step Two - Contract Directory
- - Do edit `src/contract.js`; do *not* edit `deploy.js`
- - Removed old contract and replaced it with new contract
- - Removed old tests and replaced it with new tests
- - 
+- Step One - Remove Old UI
+- Step Two - Contract Directory
+ - - Do edit `src/contract.js`; do *not* edit `deploy.js`
+ - - Removed old contract and replaced it with new contract
+ - - Removed old tests and replaced it with new tests
 
-Step Three - API Directory
- - Do edit `src/handler.js`; do *not* edit `deploy.js`
- - 
+- Step Three - API Directory
+ - - Do edit `src/handler.js`; do *not* edit `deploy.js`
+ - - 
 
-Step Four - UI Directory
- - 
+- Step Four - UI Directory
+ - - 
 
-Step Five - PROFIT
- - 
+- Step Five - PROFIT
+ - - 
