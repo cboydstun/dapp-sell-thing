@@ -14,7 +14,7 @@ See the [Dapp Deployment Guide](https://github.com/Agoric/agoric-sdk/wiki/Dapp-D
 
 - Step Three - API Directory
  - - Do edit `src/handler.js`; do *not* edit `deploy.js`
- - - 
+ - - None of the other [Dapps on the example page](https://docs.agoric.com/guides/dapps/dapp-templates.html) have an API directory, so I'm not sure what to do here.
 
 - Step Four - UI Directory
  - - 
