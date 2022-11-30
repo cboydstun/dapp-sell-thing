@@ -11,6 +11,18 @@ export const ApplicationContext = createContext({
   walletP: /** @type { any } */ (undefined),
 });
 
+const getBoardIDsForMarket = async market => {
+    const [underlyingIssuerBoardId, protocolIssuerBoardId] = await Promise.all([
+      getBoardIDForIssuer(market.underlyingIssuer),
+      getBoardIDForIssuer(market.protocolIssuer),
+    ]);
+  
+    return harden({
+      underlyingIssuerBoardId,
+      protocolIssuerBoardId
+    });
+  }
+
 export function useApplicationContext() {
     return useContext(ApplicationContext);
   }

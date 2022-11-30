@@ -2,13 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import '@endo/eventual-send/shim';
+import 'json5';
 import reportWebVitals from './reportWebVitals';
+
+import ApplicationContextProvider from './contexts/Application';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <ApplicationContextProvider>
     <App />
-  </React.StrictMode>
+  </ApplicationContextProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function
