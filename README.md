@@ -8,17 +8,19 @@ See the [Dapp Deployment Guide](https://github.com/Agoric/agoric-sdk/wiki/Dapp-D
 # DEV DIARY
 - Step One - Remove Old UI
 - Step Two - Contract Directory
- - - Do edit `src/contract.js`; do *not* edit `deploy.js`
- - - Removed old contract and replaced it with new contract
- - - Removed old tests and replaced it with new tests
+ - Do edit `src/contract.js`; do *not* edit `deploy.js`
+ - Removed old contract and replaced it with new contract
+ - Removed old tests and replaced it with new tests
 
 - Step Three - API Directory
- - - Do edit `src/handler.js`; do *not* edit `deploy.js`
- - - None of the other [Dapps on the example page](https://docs.agoric.com/guides/dapps/dapp-templates.html) have an API directory, so I'm not sure what to do here.
- - - API not necessary here re: Sam. deleted directory
+ - Do edit `src/handler.js`; do *not* edit `deploy.js`
+ - None of the other [Dapps on the example page](https://docs.agoric.com/guides/dapps/dapp-templates.html) have an API directory, so I'm not sure what to do here.
+ - API not necessary here re: Sam. deleted directory
+
 
 - Step Four - UI Directory
- - - 
+ - Create `ui/` directory with `yarn start`
+ 
 
 - Step Five - PROFIT
  - - 
